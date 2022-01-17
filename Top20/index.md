@@ -185,6 +185,7 @@ Glaub von hier bis zum 12. könnte ich viele Reihenfolgen sehen, aber das hier w
 * 3rd 0-1 (Zähle locals leider nicht ;_;)
 * Raisem  0-1
 * lilfroozy 1-2
+* Alter Digga 0-1
 ### 13. stormrat
 Verliert gegen die leute über ihm, gewinnt gegen die leute unter ihm. Nicht viel mehr zu sagen, außer dass 
 #### Best Wins:
