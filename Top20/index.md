@@ -133,7 +133,7 @@ Ich glaub hier passe ich ziemlich gut rein. Winning oder Tied gegen alle unter m
 * Raisem 1-1
 * Charon 0-1
 ### 9. DerFasan
-Glaub von hier bis zum 11. könnte ich viele Reihenfolgen sehen, aber das hier wäre die, die mir als erstes in den Kopf kommt.
+Glaub von hier bis zum 12. könnte ich viele Reihenfolgen sehen, aber das hier wäre die, die mir als erstes in den Kopf kommt.
 #### Best Wins:
 * Schneebert 3-1
 * Raisem 1-0
