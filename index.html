@@ -1,1 +1,473 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<title>Satzung.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="melee-hannover-ev">Melee Hannover e.V.</h1>
+<h3 id="%C2%A7-1-name-und-sitz-des-vereins-gesch%C3%A4ftsjahr">§ 1 Name und Sitz des Vereins, Geschäftsjahr</h3>
+<ol>
+<li>Der Verein führt den Namen &quot;Melee Hannover&quot;. Er soll in das Vereinsregister eingetragen werden und führt danach den Zusatz &quot;e.V.&quot;.</li>
+<li>Der Verein hat seinen Sitz in Hannover.</li>
+<li>Das Geschäftsjahr ist das Kalenderjahr.</li>
+</ol>
+<h3 id="%C2%A7-2-zweck-gemeinn%C3%BCtzigkeit-des-vereins">§ 2 Zweck, Gemeinnützigkeit des Vereins</h3>
+<ol>
+<li>Der Verein mit Sitz in (Ortsangabe entsprechend § 1 Absatz 2) verfolgt ausschließlich und unmittelbar gemeinnützige Zwecke im Sinne des Abschnitts „Steuerbegünstigte Zwecke&quot; der Abgabenordnung.</li>
+<li>Der Zweck des Vereins ist die Förderung … (Zweck nach § 52 Absatz 2 der Abgabenordnung angeben  TODO ). Der Satzungszweck wird insbesondere verwirklicht durch …</li>
+<li>Der Verein ist selbstlos tätig; er verfolgt nicht in erster Linie eigenwirtschaftliche Zwecke.</li>
+<li>Mittel des Vereins dürfen nur für die satzungsmäßigen Zwecke verwendet werden. Die Mitglieder erhalten keine Zuwendungen aus den Mitteln des Vereins.</li>
+<li>Es darf keine Person durch Ausgaben, die dem Zweck des Vereins fremd sind, oder durch unverhältnismäßig hohe Vergütungen begünstigt werden.</li>
+</ol>
+<h3 id="%C2%A7-3-erwerb-der-mitgliedschaft">§ 3 Erwerb der Mitgliedschaft</h3>
+<ol>
+<li>Mitglied des Vereins kann jede (natürliche) Person werden.</li>
+<li>Die Aufnahme in den Verein ist schriftlich beim Vorstand zu beantragen. Bei Minderjährigen ist der Aufnahmeantrag durch die gesetzlichen Vertreter zu stellen. Der Vorstand entscheidet über den Aufnahmeantrag nach freiem Ermessen. Eine Ablehnung des Antrags muss er gegenüber dem Antragsteller nicht begründen.</li>
+</ol>
+<h3 id="%C2%A7-4-beendigung-der-mitgliedschaft">§ 4 Beendigung der Mitgliedschaft</h3>
+<ol>
+<li>
+<p>Die Mitgliedschaft im Verein endet durch Tod (bei juristischen Personen mit deren Erlöschen), Austritt oder Ausschluss.</p>
+</li>
+<li>
+<p>Der Austritt ist schriftlich gegenüber dem Vorstand zu erklären. Der Austritt kann nur mit einer Frist von drei Monaten zum Ende des Geschäftsjahres erklärt werden.</p>
+</li>
+<li>
+<p>Ein Mitglied kann durch Beschluss der Mitgliederversammlung aus dem Verein ausgeschlossen werden, wenn es</p>
+<ol>
+<li>schuldhaft das Ansehen oder die Interessen des Vereins in schwerwiegender Weise schädigt oder</li>
+<li>mehr als drei Monate mit der Zahlung seiner Aufnahmegebühr oder seiner Mitgliedsbeiträge im Rückstand ist und trotz schriftlicher Mahnung unter Androhung des Ausschlusses die Rückstände nicht eingezahlt hat.</li>
+</ol>
+<p>Dem Mitglied ist Gelegenheit zu geben, in der Mitgliederversammlung zu den Gründen des Ausschlusses Stellung zu nehmen. Diese sind ihm mindestens zwei Wochen vorher mitzuteilen.</p>
+</li>
+</ol>
+<h3 id="%C2%A7-5-rechte-und-pflichten-der-mitglieder">§ 5 Rechte und Pflichten der Mitglieder</h3>
+<ol>
+<li>Jedes Mitglied hat das Recht, die Einrichtungen des Vereins zu nutzen und an gemeinsamen Veranstaltungen teilzunehmen. Jedes Mitglied hat gleiches Stimm- und Wahlrecht in der Mitgliederversammlung.</li>
+<li>Jedes Mitglied hat die Pflicht, die Interessen des Vereins zu fördern, insbesondere regelmäßig seine Mitgliedsbeiträge zu leisten und, soweit es in seinen Kräften steht, das Vereinsleben durch seine Mitarbeit zu unterstützen.</li>
+</ol>
+<h3 id="%C2%A7-6-aufnahmegeb%C3%BChr-und-mitgliedsbeitr%C3%A4ge">§ 6 Aufnahmegebühr und Mitgliedsbeiträge</h3>
+<ol>
+<li>Jedes Mitglied hat einen im Voraus fällig werdenden monatlichen Mitgliedsbeitrag zu entrichten.</li>
+<li>Die Höhe der Aufnahmegebühr und der Mitgliedsbeiträge wird von der Mitgliederversammlung festgelegt.</li>
+</ol>
+<h3 id="%C2%A7-7-organe-des-vereins">§ 7 Organe des Vereins</h3>
+<p>Organe des Vereins sind der Vorstand und die Mitgliederversammlung.</p>
+<h3 id="%C2%A7-8-vorstand">§ 8 Vorstand</h3>
+<ol>
+<li>Der Vorstand besteht aus dem Vorsitzenden, seinem Stellvertreter und dem Schatzmeister.</li>
+<li>Der Vorsitzende, sein Stellvertreter und der Schatzmeister vertreten den Verein jeweils allein.</li>
+</ol>
+<h3 id="%C2%A7-9-aufgaben-des-vorstands">§ 9 Aufgaben des Vorstands</h3>
+<p>Dem Vorstand des Vereins obliegen die Vertretung des Vereins nach § 26 BGB und die Führung seiner Geschäfte. Er hat insbesondere folgende Aufgaben:</p>
+<ol>
+<li>die Einberufung und Vorbereitung der Mitgliederversammlungen einschließlich der Aufstellung der Tagesordnung,</li>
+<li>die Ausführung von Beschlüssen der Mitgliederversammlung,</li>
+<li>die Verwaltung des Vereinsvermögens und die Anfertigung des Jahresberichts,</li>
+<li>die Aufnahme neuer Mitglieder.</li>
+</ol>
+<h3 id="%C2%A7-10-bestellung-des-vorstands">§ 10 Bestellung des Vorstands</h3>
+<ol>
+<li>Die Mitglieder des Vorstands werden von der Mitgliederversammlung für die Dauer von zwei Jahren einzeln gewählt. Mitglieder des Vorstands können nur Mitglieder des Vereins sein; mit der Mitgliedschaft im Verein endet auch die Mitgliedschaft im Vorstand. Die Wiederwahl oder die vorzeitige Abberufung eines Mitglieds durch die Mitgliederversammlung ist zulässig. Ein Mitglied bleibt nach Ablauf der regulären Amtszeit bis zur Wahl seines Nachfolgers im Amt.</li>
+<li>Scheidet ein Mitglied vorzeitig aus dem Vorstand aus, so sind die verbleibenden Mitglieder des Vorstands berechtigt, ein Mitglied des Vereins bis zur Wahl des Nachfolgers durch die Mitgliederversammlung in den Vorstand zu wählen.</li>
+</ol>
+<h3 id="%C2%A7-11-beratung-und-beschlussfassung-des-vorstands">§ 11 Beratung und Beschlussfassung des Vorstands</h3>
+<ol>
+<li>Der Vorstand tritt nach Bedarf zusammen. Die Sitzungen werden vom Vorsitzenden, bei dessen Verhinderung von seinem Stellvertreter, einberufen. Der Vorstand ist beschlussfähig, wenn mindestens zwei Mitglieder anwesend sind. Bei der Beschlussfassung entscheidet die Mehrheit der abgegebenen gültigen Stimmen. Bei Stimmengleichheit entscheidet die Stimme des Vorsitzenden, bei dessen Verhinderung die seines Stellvertreters.</li>
+<li>Die Beschlüsse des Vorstands sind zu protokollieren. Das Protokoll ist vom Protokollführer sowie vom Vorsitzenden, bei dessen Verhinderung von seinem Stellvertreter oder einem anderen Mitglied des Vorstands zu unterschreiben.</li>
+</ol>
+<h3 id="%C2%A7-12-aufgaben-der-mitgliederversammlung">§ 12 Aufgaben der Mitgliederversammlung</h3>
+<p>Die Mitgliederversammlung ist zuständig für die Entscheidungen in folgenden Angelegenheiten:</p>
+<ol>
+<li>Änderungen der Satzung,</li>
+<li>die Festsetzung der Aufnahmegebühr und der Mitgliedsbeiträge</li>
+<li>die Ernennung von Ehrenmitgliedern sowie der Ausschluss von Mitgliedern aus dem Verein,</li>
+<li>die Wahl und die Abberufung der Mitglieder des Vorstands,</li>
+<li>die Entgegennahme des Jahresberichts und die Entlastung des Vorstands,</li>
+<li>die Auflösung des Vereins.</li>
+</ol>
+<h3 id="%C2%A7-13-einberufung-der-mitgliederversammlung">§ 13 Einberufung der Mitgliederversammlung</h3>
+<ol>
+<li>Mindestens einmal im Jahr, möglichst im ersten Quartal, ist vom Vorstand eine ordentliche Mitgliederversammlung einzuberufen. Die Einberufung erfolgt schriftlich unter Einhaltung einer Frist von zwei Wochen und unter Angabe der Tagesordnung.</li>
+<li>Die Tagesordnung setzt der Vorstand fest. Jedes Vereinsmitglied kann bis spätestens eine Woche vor der Mitgliederversammlung beim Vorstand schriftlich eine Ergänzung der Tagesordnung beantragen. Über den Antrag entscheidet der Vorstand. Über Anträge zur Tagesordnung, die vom Vorstand nicht aufgenommen wurden oder die erstmals in der Mitgliederversammlung gestellt werden, entscheidet die Mitgliederversammlung mit der Mehrheit der Stimmen der anwesenden Mitglieder; dies gilt nicht für Anträge, die eine Änderung der Satzung, Änderungen der Mitgliedsbeiträge oder die Auflösung des Vereins zum Gegenstand haben.</li>
+<li>Der Vorstand hat eine außerordentliche Mitgliederversammlung einzuberufen, wenn es das Interesse des Vereins erfordert oder wenn mindestens ein Zehntel der Mitglieder dies schriftlich unter Angabe des Zwecks und der Gründe beantragt.</li>
+</ol>
+<h3 id="%C2%A7-14-beschlussfassung-der-mitgliederversammlung">§ 14 Beschlussfassung der Mitgliederversammlung</h3>
+<ol>
+<li>Die Mitgliederversammlung wird vom Vorsitzenden des Vorstands, bei dessen Verhinderung von seinem Stellvertreter und bei dessen Verhinderung von einem durch die Mitgliederversammlung zu wählenden Versammlungsleiter geleitet.</li>
+<li>Die Mitgliederversammlung ist beschlussfähig, wenn mindestens ein Drittel aller Vereinsmitglieder anwesend ist. Bei Beschlussunfähigkeit ist der Vorstand verpflichtet, innerhalb von vier Wochen eine zweite Mitgliederversammlung mit der gleichen Tagesordnung einzuberufen. Diese ist ohne Rücksicht auf die Zahl der erschienenen Mitglieder beschlussfähig. Hierauf ist in der Einladung hinzuweisen.</li>
+<li>Die Mitgliederversammlung beschließt in offener Abstimmung mit der Mehrheit der Stimmen der anwesenden Mitglieder. Kann bei Wahlen kein Kandidat die Mehrheit der Stimmen der anwesenden Mitglieder auf sich vereinen, ist gewählt, wer die Mehrheit derabgegebenen gültigen Stimmen erhalten hat; zwischen mehreren Kandidaten ist eine Stichwahl durchzuführen. Beschlüsse über eine Änderung der Satzung bedürfen der Mehrheit von drei Vierteln, der Beschluss über die Änderung des Zwecks oder die Auflösung des Vereins der Zustimmung von neun Zehnteln der anwesenden Mitglieder.</li>
+<li>Über den Ablauf der Mitgliederversammlung und die gefassten Beschlüsse ist ein Protokoll zu fertigen, das vom Protokollführer und vom Versammlungsleiter zu unterschreiben ist.</li>
+</ol>
+<h3 id="%C2%A7-15-aufl%C3%B6sung-des-vereins-beendigung-aus-anderen-gr%C3%BCnden-wegfall-steuerbeg%C3%BCnstigter-zwecke">§ 15 Auflösung des Vereins, Beendigung aus anderen Gründen, Wegfall steuerbegünstigter Zwecke</h3>
+<ol>
+<li>Im Falle der Auflösung des Vereins sind der Vorsitzende des Vorstands und sein Stellvertreter gemeinsam vertretungsberechtigte Liquidatoren, falls die Mitgliederversammlung keine anderen Personen beruft.</li>
+<li>Bei Auflösung oder Aufhebung des Vereins oder bei Wegfall steuerbegünstigter Zwecke fällt das Vermögen des Vereins an eine juristische Person des öffentlichen Rechts oder eine andere steuerbegünstigte Körperschaft, zwecks Verwendung für … (Angabe eines bestimmten gemeinnützigen, mildtätigen oder kirchlichen Zwecks).</li>
+<li>Die vorstehenden Bestimmungen gelten entsprechend, wenn dem Verein die Rechtsfähigkeit entzogen wurde.</li>
+</ol>
+<p>… (Ort), … (Datum)</p>
+<p>Unterschriften von mindestens sieben Mitgliedern</p>
+
+</body>
+</html>
