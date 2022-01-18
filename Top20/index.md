@@ -4,22 +4,27 @@ Ich basier das ganze erstmal nur auf offline Turnieren seit Sommer letztem Jahr.
 
 ## TLDR:
 ### Hauptliste
+#### S Tier
 1. Nicki
 2. Kins0
 3. Ice
+#### S- Tier
 4. Rikzz
+#### A+ Tier
 5. Parsec
 6. Schima
+#### A- Tier
 7. astar
 8. King
+#### B Tier
 9. DerFasan
 10. Raisem
 11. Aolong
 12. yung Ullrich
+#### C Tier
 13. stormrat
-### Paar Wins aber kaum schlechte Losses:
 14. lil froozy
-### NUR EIN TURNIER ABER KLATSCH SIE HIER IRGENDWO REIN UND DU HAST WOHL NE TOP 20:
+#### NUR EIN TURNIER ABER KLATSCH SIE HIER IRGENDWO REIN UND DU HAST WOHL NE TOP 20:
 * Charon
 * big irf
 * Anna
@@ -28,7 +33,8 @@ Ich basier das ganze erstmal nur auf offline Turnieren seit Sommer letztem Jahr.
 * Floursnail
 
 Auf zur Langen Liste:
-## DIE LANGE LISTE
+# DIE LANGE LISTE
+## S Tier
 ### 1. Nicki
 Glaub das ist recht selbsterklärend und braucht keine weitere Erläuterung.
 #### Best Wins:
@@ -53,7 +59,7 @@ Ja, ich plazier hier einfach mal Niklas über Ice. Deutlich mehr Attendance mit 
 * DerFasan
 * stormrat
 #### Worst Losses: 
-* Jah Ridin'
+* Jah Ridin' 0-1
 * Nicki 1-2
 
 ### 3. Ice
@@ -70,7 +76,9 @@ Nur zwei Offline Turniere, nämlich die SWT Qualifiers und Finals. Pipsqueak, Pr
 * Professor Pro
 * Frenzy
 * Polish
+## S- Tier
 ### 4. Rikzz
+Zwar auch nur zwei Turniere, aber eines davon in DE gewonnen ohne ein Set zu verlieren, und dabei Setwins gegen relevante deutsche Spieler eingeholt.
 #### Best Wins:
 * Schima 2-0
 * Mahie 1-0
@@ -80,6 +88,7 @@ Nur zwei Offline Turniere, nämlich die SWT Qualifiers und Finals. Pipsqueak, Pr
 * Professor Pro 0-1
 * Pipsqueak 0-1
 * skullbro 0-1
+## A+ Tier
 ### 5. Parsec
 Innerhalb Deutschlands sehr Aktiv, und dafür eigentlich keine Schlechten losses. Anna-Losses sind seltsam einzuschätzen weil Anna nur ein Turnier attended hat.
 #### Best Wins:
@@ -93,7 +102,7 @@ Innerhalb Deutschlands sehr Aktiv, und dafür eigentlich keine Schlechten losses
 * Kins0 0-1
 * Anna 0-2
 ### 6. Schima
-Sehr aktiv, und dafür auch sehr gute Results. Unter Parsec weil ich denke dass der Floursnail-Loss schlechter ist als der Anna-Loss.
+Sehr aktiv, und dafür auch sehr gute Results. Unter Parsec weil ich denke dass der Floursnail-Loss schlechter ist als die Anna-Losses. Diese beiden könnten auch getauscht sein, ich kann argumente für beides verstehen. Sehr close.
 #### Best Wins:
 * Parsec 1-1
 * astar 1-1
@@ -104,8 +113,10 @@ Sehr aktiv, und dafür auch sehr gute Results. Unter Parsec weil ich denke dass 
 * Parsec 1-1
 * astar 1-1
 * King 1-1
+* Floursnail 0-1
+## A- Tier
 ### 7. astar
-Glaub er ist noch über mir.
+Zwei Turniere, dort aber recht gute Results eingeholt.
 #### Best Wins:
 * Parsec 1-0
 * Schima 1-2
@@ -115,7 +126,7 @@ Glaub er ist noch über mir.
 * Schima 1-2
 * Kins0 0-1
 ### 8. King
-Ich glaub hier passe ich ziemlich gut rein. Winning oder Tied gegen alle unter mir, mehr attendance als fast alle unter mir. Habe überlegt, mich über astar zu packen. Könnte ich wohl auch machen. Aber heute siegt nochmal die Bescheidenheit, bei der nächsten Liste kommt dann das Ego.
+Ich glaub hier passe ich ziemlich gut rein. Winning oder Tied gegen alle unter mir, mehr attendance als fast alle auf dieser Liste. Habe überlegt, mich über astar zu packen. Könnte ich wohl auch machen, vorallem wegen meiner deutlich Höheren Attendance. Aber heute siegt nochmal die Bescheidenheit, bei der nächsten Liste kommt dann das Ego.
 #### Best Wins:
 * Schima 1-1
 * DerFasan 1-0
@@ -132,8 +143,9 @@ Ich glaub hier passe ich ziemlich gut rein. Winning oder Tied gegen alle unter m
 * big irf 0-1
 * Raisem 1-1
 * Charon 0-1
+## B Tier
 ### 9. DerFasan
-Glaub von hier bis zum 12. könnte ich viele Reihenfolgen sehen, aber das hier wäre die, die mir als erstes in den Kopf kommt.
+Innerhalb dieses Tiers kann ich auch jede Reihenfolge sehen. Auf jeden fall gibts hier keine "richtige" Reihenfolge, also hab ich hier einmal meine subjektive gegeben.
 #### Best Wins:
 * Schneebert 3-1
 * Raisem 1-0
@@ -175,6 +187,7 @@ Glaub von hier bis zum 12. könnte ich viele Reihenfolgen sehen, aber das hier w
 * Steff$ 0-2
 * Kins0 0-1
 ### 12. yung Ullrich
+Unfortunate 3rd loss, sonst aber eigentlich durchweg gute Results. Auch ein sehr guter Gatekeeper.
 #### Best Wins:
 * DerFasan 1-0
 * King 2-2
@@ -186,14 +199,16 @@ Glaub von hier bis zum 12. könnte ich viele Reihenfolgen sehen, aber das hier w
 * Raisem  0-1
 * lilfroozy 1-2
 * Alter Digga 0-1
+## C Tier
 ### 13. stormrat
-Verliert gegen die leute über ihm, gewinnt gegen die leute unter ihm. Nicht viel mehr zu sagen, außer dass 
+Verliert gegen die leute über ihm, gewinnt gegen die leute unter ihm. Nicht viel mehr zu sagen, außer, dass er ein sehr guter Gatekeeper ist.
 #### Best Wins:
 #### Worst Losses:
 * Aolong 0-6
 * King 0-1
 * Raisem 0-1
 ### 14. lilfroozy
+Maxi wird irgendwie oft komisch geupsetted, aber hat einen positiven Record auf yung Ullrich (zumindest bei größeren Events). Packe ihn wegen den Upsets unter Ratte.
 #### Best Wins:
 * yung Ullrich 2-1
 #### Worst Losses:
@@ -204,12 +219,20 @@ Verliert gegen die leute über ihm, gewinnt gegen die leute unter ihm. Nicht vie
 * Parsec 0-1
 * DerFasan 0-2
 * yung Ullrich 2-1
-### AUCH NOCH IWO IN DEN TOP 20 ABER HART ZU RANKEN WEIL WENIG TURNIERE ETC (Unordered):
-#### big irf
-#### Charon
-#### Anna
-#### Kobobi/hot atze sommer
-#### Kellner
-#### Floursnail???
-### KP DIGGI
-#### Frank???
+
+## Rest
+* **AUCH NOCH IWO IN DEN TOP 20 ABER HART ZU RANKEN WEIL WENIG TURNIERE ETC (Unordered):**
+    * big irf
+    * Charon
+    * Anna
+    * Kobobi/hot atze sommer
+    * Kellner
+* **KP DIGGI**
+    * Floursnail
+    * Frank
+    * Alter, Digga
+* **GUTE ONLINE RESULTS, ABER (NOCH) NICHT OFFLINE GESPIELT**
+    * SenX
+    * Gosu
+    * Mojohans aka Flexqz (auch, wenn einige TOs (wie z.B. ich) ihn nicht auf ihren Events haben möchten)
+    * Meruem

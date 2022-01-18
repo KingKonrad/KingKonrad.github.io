@@ -2,4 +2,4 @@
 
 Heyo :3 This Page is still a big WIP.
 
-* [Top 20 List](./Top20/)
+* [Meine Deutsche Melee Top 20](./Top20/)
