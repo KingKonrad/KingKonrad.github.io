@@ -195,7 +195,7 @@ Unfortunate 3rd loss, sonst aber eigentlich durchweg gute Results. Auch ein sehr
 * lilfroozy 1-2
 * stormrat 1-0
 #### Worst Losses:
-* 3rd 0-1 (Zähle locals leider nicht ;_;)
+* 3rd 0-1 (Zähle locals leider nicht ;_; )
 * Raisem  0-1
 * lilfroozy 1-2
 * Alter Digga 0-1
