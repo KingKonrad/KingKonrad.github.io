@@ -68,14 +68,15 @@ Jetzt durch VirtuaMelee zwei Turniere. Schlechtester Loss: Parsec, wo sie 2-1 in
 * Parsec 2-1
 ## A Tier
 ### 6. Parsec (-1)
-Anna Win hilft, aber die beiden Losses gegen schima tun etwas zu dolle weh. Klar über astar für mich jetzt wo
+Anna Win hilft, aber die beiden Losses gegen Schima tun etwas zu dolle weh. Klar 6. für mich jetzt wo das H2H gegen astar even ist.
 #### Best Wins:
 * Schima 1-3
 * King 1-0
 * big irf 1-0
 * Raisem 2-0
+* astar 1-1
 #### Worst Losses:
-* astar 0-1
+* astar 1-1
 * Rikzz 0-1
 * Kins0 0-1
 * Anna 0-2
