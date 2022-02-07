@@ -8,22 +8,22 @@ Werde nicht alles erklären, sondern nur Veränderungen im vergleich zur letzten
 1. Nicki
 2. Kins0
 #### A+ Tier
-4. Rikzz
+3. Rikzz
 #### A Tier
-5. Schima
-6. Anna
+4. Schima
+5. Anna
 #### A- Tier
-7. Parsec
+6. Parsec
 #### B Tier (giga close) (twitter drama incoming tier)
-8. King
-9. astar
+7. King
+8. astar
 #### C Tier (nicht wirklich ordered)
-10. DerFasan
-11. Raisem
-12. Aolong
-13. yung Ullrich
+9. DerFasan
+10. Raisem
+11. Aolong
+12. yung Ullrich
 #### D Tier
-14. stormrat
+13. stormrat
 #### ZU VIELE FRAGEZEICHEN (?)
 * lilfroozy
 #### KEINE DEUTSCHEN TURNIERE, DAHER KEIN DEUTSCHES PR
