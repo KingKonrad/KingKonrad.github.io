@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="kings-objektive-komplett-unbiased-melee-deutschland-top-20-die-einzige-korrekte-meinung"><strong>KINGS OBJEKTIVE KOMPLETT UNBIASED MELEE DEUTSCHLAND TOP 20 (DIE EINZIGE KORREKTE MEINUNG)</strong></h1>
+<p>Werde nicht alles erklären, sondern nur Veränderungen im vergleich zur letzten Liste.</p>
+<h2 id="tldr">TLDR:</h2>
+<h3 id="hauptliste">Hauptliste</h3>
+<h4 id="s-tier">S Tier</h4>
+<ol>
+<li>Nicki</li>
+<li>Kins0</li>
+</ol>
+<h4 id="a-tier">A+ Tier</h4>
+<ol start="4">
+<li>Rikzz</li>
+</ol>
+<h4 id="a-tier">A Tier</h4>
+<ol start="5">
+<li>Schima</li>
+<li>Anna</li>
+</ol>
+<h4 id="a--tier">A- Tier</h4>
+<ol start="7">
+<li>Parsec</li>
+</ol>
+<h4 id="b-tier-giga-close-twitter-drama-incoming-tier">B Tier (giga close) (twitter drama incoming tier)</h4>
+<ol start="8">
+<li>King</li>
+<li>astar</li>
+</ol>
+<h4 id="c-tier-nicht-wirklich-ordered">C Tier (nicht wirklich ordered)</h4>
+<ol start="10">
+<li>DerFasan</li>
+<li>Raisem</li>
+<li>Aolong</li>
+<li>yung Ullrich</li>
+</ol>
+<h4 id="d-tier">D Tier</h4>
+<ol start="14">
+<li>stormrat</li>
+</ol>
+<h4 id="zu-viele-fragezeichen">ZU VIELE FRAGEZEICHEN (?)</h4>
+<ul>
+<li>lilfroozy</li>
+</ul>
+<h4 id="keine-deutschen-turniere-daher-kein-deutsches-pr">KEINE DEUTSCHEN TURNIERE, DAHER KEIN DEUTSCHES PR</h4>
+<ul>
+<li>Ice</li>
+</ul>
+<h4 id="nur-ein-turnier-aber-klatsch-sie-hier-irgendwo-rein-und-du-hast-wohl-ne-top-20">NUR EIN TURNIER ABER KLATSCH SIE HIER IRGENDWO REIN UND DU HAST WOHL NE TOP 20:</h4>
+<ul>
+<li>Charon</li>
+<li>big irf</li>
+<li>Anna</li>
+<li>hot atze sommer</li>
+<li>Kellner</li>
+<li>Floursnail</li>
+</ul>
+<p>Auf zur Langen Liste:</p>
+<h1 id="die-lange-liste">DIE LANGE LISTE</h1>
+<h2 id="s-tier">S Tier</h2>
+<h3 id="1-nicki">1. Nicki</h3>
+<h3 id="2-kins0">2. Kins0</h3>
+<h3 id="3-rikzz">3. Rikzz</h3>
+<h2 id="a-tier">A+ Tier</h2>
+<h3 id="4-schima">4. Schima</h3>
+<p>Bei Virtuamelee nochmal deutlich results polished, mit einem sehr klaren h2h gegen Parsec ist er jetzt für mich aktuell ziemlich weit oben.</p>
+<h4 id="best-wins">Best Wins:</h4>
+<ul>
+<li>Parsec 3-1</li>
+<li>astar 1-1</li>
+<li>King 1-1</li>
+<li>Raisem 1-0</li>
+<li>yung Ullrich 2-0</li>
+</ul>
+<h4 id="worst-losses">Worst Losses:</h4>
+<ul>
+<li>Parsec 1-1</li>
+<li>astar 1-1</li>
+<li>King 1-1</li>
+<li>Floursnail 0-1</li>
+</ul>
+<h3 id="5-anna">5. Anna</h3>
+<p>Jetzt durch VirtuaMelee zwei Turniere. Schlechtester Loss: Parsec, wo sie 2-1 in Sets up ist. Ansonsten nur gegen Nr. 1 und 2 verloren. Zu wenig Attendance um über Schima geranked zu werden.</p>
+<h4 id="best-wins">Best Wins:</h4>
+<ul>
+<li>Astar 1-0</li>
+<li>Parsec 2-1</li>
+<li>stormrat 1-0</li>
+</ul>
+<h4 id="worst-losses">Worst Losses:</h4>
+<ul>
+<li>Nicki 0-1</li>
+<li>Kins0 0-2</li>
+<li>Parsec 2-1</li>
+</ul>
+<h2 id="a-tier">A Tier</h2>
+<h3 id="6-parsec">6. Parsec</h3>
+<p>Anna Win hilft, aber die beiden Losses gegen schima tun etwas zu dolle weh. Klar über astar für mich jetzt wo</p>
+<h4 id="best-wins">Best Wins:</h4>
+<ul>
+<li>Schima 1-1</li>
+<li>King 1-0</li>
+<li>big irf 1-0</li>
+<li>Raisem 2-0</li>
+</ul>
+<h4 id="worst-losses">Worst Losses:</h4>
+<ul>
+<li>astar 0-1</li>
+<li>Rikzz 0-1</li>
+<li>Kins0 0-1</li>
+<li>Anna 0-2</li>
+</ul>
+<h2 id="a--tier">A- Tier</h2>
+<h3 id="7-king">7. King</h3>
+<p>Über astar weil ich insgesammt mehr Attendance habe und astar mit dem Parsec-Loss sein bestes h2h von der letzten liste nicht mehr hat. Wenn man das Stuttgard Monthly hier mit einzählen würde, wäre astar wohl über mir. Hab ich aber nicht. Ist er also nicht :p.</p>
+<h4 id="best-wins">Best Wins:</h4>
+<ul>
+<li>Schima 1-1</li>
+<li>DerFasan 1-0</li>
+<li>Raisem 1-1</li>
+<li>Aolong 1-0</li>
+<li>stormrat 1-0</li>
+<li>lilfroozy 1-0</li>
+</ul>
+<h4 id="worst-losses">Worst Losses:</h4>
+<ul>
+<li>yung Ullrich 2-2</li>
+<li>hot atze sommer 0-1</li>
+<li>Parsec 0-1</li>
+<li>Schima 1-1</li>
+<li>Rikzz 0-1</li>
+<li>big irf 0-1</li>
+<li>Raisem 1-1</li>
+<li>Charon 0-1</li>
+</ul>
+<h3 id="8-astar">8. astar</h3>
+<p>Auf VirtuaMelee hat der Loss gegen Parsec seinen besten h2h record zu &quot;bloß&quot; einem Even record gemacht. Ich finde seine Records insgesammt sehr sehr ähnlich zu meinen, also plaziere ich mich hier noch über ihn weil ich mehr Turniere attended habe. Wenn er weiter so attended oder wenn man das stuttgard monthly zählt ist er dank 2-1 Record gegen Parsec trotz seinem 1-3 Record gegen Schima (wo ich mit 1-1 etwas besser darstehe) über mir.</p>
+<h4 id="best-wins">Best Wins:</h4>
+<ul>
+<li>Parsec 1-1</li>
+<li>Schima 1-2</li>
+<li>DerFasan 1-0</li>
+</ul>
+<h4 id="worst-losses">Worst Losses:</h4>
+<ul>
+<li>Anna 0-1</li>
+<li>Kellner 0-1</li>
+<li>Schima 1-2</li>
+<li>Kins0 0-1</li>
+<li>Parsec 1-1</li>
+</ul>
+<h2 id="b-tier">B Tier</h2>
+<h3 id="9-derfasan">9. DerFasan</h3>
+<h3 id="10-raisem">10. Raisem</h3>
+<h3 id="11-aolong">11. Aolong</h3>
+<h3 id="12-yung-ullrich">12. yung Ullrich</h3>
+<p>Nicht viel veränderung auf VirtuaMelee. Ein weiterer Maxi Loss ist aber etwas unschön, aber verständlich.</p>
+<h4 id="best-wins">Best Wins:</h4>
+<ul>
+<li>DerFasan 1-0</li>
+<li>King 2-2</li>
+<li>Aolong 1-1</li>
+<li>lilfroozy 1-3</li>
+<li>stormrat 1-0</li>
+</ul>
+<h4 id="worst-losses">Worst Losses:</h4>
+<ul>
+<li>3rd 0-1</li>
+<li>Raisem  0-1</li>
+<li>lilfroozy 1-3</li>
+<li>Alter Digga 0-1</li>
+</ul>
+<h2 id="c-tier">C Tier</h2>
+<h3 id="13-stormrat">13. stormrat</h3>
+<p>Verliert gegen die leute über ihm, gewinnt gegen die leute unter ihm. Nicht viel mehr zu sagen, außer, dass er ein sehr guter Gatekeeper ist.</p>
+<h4 id="best-wins">Best Wins:</h4>
+<h4 id="worst-losses">Worst Losses:</h4>
+<ul>
+<li>Aolong 0-6</li>
+<li>King 0-1</li>
+<li>Raisem 0-1</li>
+</ul>
+<h2 id="">?</h2>
+<h3 id="lilfroozy">lilfroozy</h3>
+<p>Maxi wurde mir jetzt erstmal einmal zu oft &quot;geupsettet&quot; und hat bis auf seinen Setrecord gegen Dennis keine weiteren Wins von dieser liste, und ist für mich deshalb erstmal rausgedropped.</p>
+<h4 id="best-wins">Best Wins:</h4>
+<ul>
+<li>yung Ullrich 3-1</li>
+</ul>
+<h4 id="worst-losses">Worst Losses:</h4>
+<ul>
+<li>Komori 0-1</li>
+<li>Alter, digga 0-1</li>
+<li>Max (München) 0-1</li>
+<li>King 0-2</li>
+<li>Schima 0-2</li>
+<li>Parsec 0-1</li>
+<li>DerFasan 0-2</li>
+<li>yung Ullrich 2-1</li>
+</ul>
+<h3 id="ice">Ice</h3>
+<p>Ice attended aktuell keine Deutschen Turniere. Warum sollte er in einer Region, wo er an keinem einzigen Turnier bisher teilnahm, geranked werden? Ich habe ihn deshalb komplett von dieser Liste entfernt, trotz sonstiger guter Results auf anderen, externen Turnieren. <strong>Er hat kein h2h gegen irgendeinen anderen Deutschen Spieler.</strong></p>
+<h2 id="rest">Rest</h2>
+<ul>
+<li><strong>AUCH NOCH IWO IN DEN TOP 20 ABER HART ZU RANKEN WEIL WENIG TURNIERE ETC (Unordered):</strong>
+<ul>
+<li>big irf</li>
+<li>Charon</li>
+<li>Anna</li>
+<li>Kobobi/hot atze sommer</li>
+<li>Kellner</li>
+</ul>
+</li>
+<li><strong>KP DIGGI</strong>
+<ul>
+<li>Floursnail</li>
+<li>Frank</li>
+<li>Alter, Digga</li>
+<li>SenX</li>
+</ul>
+</li>
+<li><strong>GUTE ONLINE RESULTS, ABER (NOCH) NICHT OFFLINE GESPIELT</strong>
+<ul>
+<li>Gosu</li>
+<li>Mojohans aka Flexqz (auch, wenn einige TOs (wie z.B. ich) ihn nicht auf ihren Events haben möchten)</li>
+<li>Meruem</li>
+</ul>
+</li>
+</ul>
+
+</body>
+</html>
