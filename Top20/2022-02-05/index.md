@@ -31,7 +31,6 @@ Werde nicht alles erklären, sondern nur Veränderungen im vergleich zur letzten
 #### NUR EIN TURNIER ABER KLATSCH SIE HIER IRGENDWO REIN UND DU HAST WOHL NE TOP 20:
 * Charon
 * big irf
-* Anna
 * hot atze sommer
 * Kellner
 * Floursnail
@@ -53,7 +52,7 @@ Bei Virtuamelee nochmal deutlich results polished, mit einem sehr klaren h2h geg
 * Raisem 1-0
 * yung Ullrich 2-0
 #### Worst Losses:
-* Parsec 1-1
+* Parsec 3-1
 * astar 1-1
 * King 1-1
 * Floursnail 0-1
@@ -71,7 +70,7 @@ Jetzt durch VirtuaMelee zwei Turniere. Schlechtester Loss: Parsec, wo sie 2-1 in
 ### 6. Parsec (-1)
 Anna Win hilft, aber die beiden Losses gegen schima tun etwas zu dolle weh. Klar über astar für mich jetzt wo
 #### Best Wins:
-* Schima 1-1
+* Schima 1-3
 * King 1-0
 * big irf 1-0
 * Raisem 2-0
@@ -80,6 +79,7 @@ Anna Win hilft, aber die beiden Losses gegen schima tun etwas zu dolle weh. Klar
 * Rikzz 0-1
 * Kins0 0-1
 * Anna 0-2
+* Schima 1-3
 ## A- Tier
 ### 7. King (+1) (Ego Moment)
 Über astar weil ich insgesammt mehr Attendance habe und astar mit dem Parsec-Loss sein bestes h2h von der letzten liste nicht mehr hat. Wenn man das Stuttgard Monthly hier mit einzählen würde, wäre astar wohl über mir. Hab ich aber nicht. Ist er also nicht :p. Nach meiner Zählung: 6 Events
