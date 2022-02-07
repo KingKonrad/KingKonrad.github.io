@@ -160,7 +160,6 @@ Ice attended aktuell keine Deutschen Turniere. Warum sollte er in einer Region, 
 * **AUCH NOCH IWO IN DEN TOP 20 ABER HART ZU RANKEN WEIL WENIG TURNIERE ETC (Unordered):**
     * big irf
     * Charon
-    * Anna
     * Kobobi/hot atze sommer
     * Kellner
 * **KP DIGGI**
