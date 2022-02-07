@@ -8,15 +8,15 @@ Werde nicht alles erklären, sondern nur Veränderungen im vergleich zur letzten
 1. Nicki
 2. Kins0
 #### A+ Tier
-3. Rikzz
+3. Rikzz (+1)
 #### A Tier
-4. Schima
-5. Anna
+4. Schima (+2)
+5. Anna (new)
 #### A- Tier
-6. Parsec
+6. Parsec (-1)
 #### B Tier (giga close) (twitter drama incoming tier)
-7. King
-8. astar
+7. King (+1)
+8. astar (-1)
 #### C Tier (nicht wirklich ordered)
 9. DerFasan
 10. Raisem
@@ -25,9 +25,9 @@ Werde nicht alles erklären, sondern nur Veränderungen im vergleich zur letzten
 #### D Tier
 13. stormrat
 #### ZU VIELE FRAGEZEICHEN (?)
-* lilfroozy
-#### KEINE DEUTSCHEN TURNIERE, DAHER KEIN DEUTSCHES PR
-* Ice
+* lilfroozy (prev. 14.)
+#### NACH EINIGER ÜBERLEGUNG: KEINE DEUTSCHEN TURNIERE, KEIN DEUTSCHES OFFLINE H2H, KEIN DEUTSCHES PR
+* Ice (prev. 3.)
 #### NUR EIN TURNIER ABER KLATSCH SIE HIER IRGENDWO REIN UND DU HAST WOHL NE TOP 20:
 * Charon
 * big irf
@@ -42,9 +42,9 @@ Auf zur Langen Liste:
 ## S Tier
 ### 1. Nicki
 ### 2. Kins0
-### 3. Rikzz
+### 3. Rikzz (+1)
 ## A+ Tier
-### 4. Schima
+### 4. Schima (+2)
 Bei Virtuamelee nochmal deutlich results polished, mit einem sehr klaren h2h gegen Parsec ist er jetzt für mich aktuell ziemlich weit oben.
 #### Best Wins:
 * Parsec 3-1
@@ -57,7 +57,7 @@ Bei Virtuamelee nochmal deutlich results polished, mit einem sehr klaren h2h geg
 * astar 1-1
 * King 1-1
 * Floursnail 0-1
-### 5. Anna
+### 5. Anna (New)
 Jetzt durch VirtuaMelee zwei Turniere. Schlechtester Loss: Parsec, wo sie 2-1 in Sets up ist. Ansonsten nur gegen Nr. 1 und 2 verloren. Zu wenig Attendance um über Schima geranked zu werden.
 #### Best Wins:
 * Astar 1-0
@@ -68,7 +68,7 @@ Jetzt durch VirtuaMelee zwei Turniere. Schlechtester Loss: Parsec, wo sie 2-1 in
 * Kins0 0-2
 * Parsec 2-1
 ## A Tier
-### 6. Parsec
+### 6. Parsec (-1)
 Anna Win hilft, aber die beiden Losses gegen schima tun etwas zu dolle weh. Klar über astar für mich jetzt wo
 #### Best Wins:
 * Schima 1-1
@@ -81,13 +81,13 @@ Anna Win hilft, aber die beiden Losses gegen schima tun etwas zu dolle weh. Klar
 * Kins0 0-1
 * Anna 0-2
 ## A- Tier
-### 7. King
-Über astar weil ich insgesammt mehr Attendance habe und astar mit dem Parsec-Loss sein bestes h2h von der letzten liste nicht mehr hat. Wenn man das Stuttgard Monthly hier mit einzählen würde, wäre astar wohl über mir. Hab ich aber nicht. Ist er also nicht :p.
+### 7. King (+1) (Ego Moment)
+Über astar weil ich insgesammt mehr Attendance habe und astar mit dem Parsec-Loss sein bestes h2h von der letzten liste nicht mehr hat. Wenn man das Stuttgard Monthly hier mit einzählen würde, wäre astar wohl über mir. Hab ich aber nicht. Ist er also nicht :p. Nach meiner Zählung: 6 Events
 #### Best Wins:
 * Schima 1-1
-* DerFasan 1-0
+* DerFasan 2-0
 * Raisem 1-1
-* Aolong 1-0
+* Aolong 2-0
 * stormrat 1-0
 * lilfroozy 1-0
 #### Worst Losses:
@@ -99,8 +99,8 @@ Anna Win hilft, aber die beiden Losses gegen schima tun etwas zu dolle weh. Klar
 * big irf 0-1
 * Raisem 1-1
 * Charon 0-1
-### 8. astar
-Auf VirtuaMelee hat der Loss gegen Parsec seinen besten h2h record zu "bloß" einem Even record gemacht. Ich finde seine Records insgesammt sehr sehr ähnlich zu meinen, also plaziere ich mich hier noch über ihn weil ich mehr Turniere attended habe. Wenn er weiter so attended oder wenn man das stuttgard monthly zählt ist er dank 2-1 Record gegen Parsec trotz seinem 1-3 Record gegen Schima (wo ich mit 1-1 etwas besser darstehe) über mir.
+### 8. astar (-1)
+Auf VirtuaMelee hat der Loss gegen Parsec seinen besten h2h record zu "bloß" einem Even record gemacht. Ich finde seine Records insgesammt sehr sehr ähnlich zu meinen, also plaziere ich mich hier noch über ihn weil ich mehr Turniere attended habe. Wenn er weiter so attended oder wenn man das stuttgard monthly zählt ist er dank 2-1 Record gegen Parsec trotz seinem 1-3 Record gegen Schima (wo ich mit 1-1 etwas besser darstehe) über mir. Nach meiner Zählung: 3 Events
 #### Best Wins:
 * Parsec 1-1
 * Schima 1-2
