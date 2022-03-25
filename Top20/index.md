@@ -1,3 +1,5 @@
+[back to top](../)
+
 # Index: Kings German Top 20s
 
 * [Meine Deutsche Melee Top 20 (Anfang 2020)](./2022-01-01/)

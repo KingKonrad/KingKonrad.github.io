@@ -1,3 +1,5 @@
+[back to top](../)
+
 # **KINGS OBJEKTIVE KOMPLETT UNBIASED MELEE DEUTSCHLAND TOP 20 (DIE EINZIGE KORREKTE MEINUNG)**
 
 Ich basier das ganze erstmal nur auf offline Turnieren seit Sommer letztem Jahr. 2 Turnier und du bist drauf, ein turnier und du bist im IDK-Tier der Hölle. Zähle Locals nicht.
